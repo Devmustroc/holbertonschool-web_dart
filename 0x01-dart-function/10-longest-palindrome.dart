@@ -25,7 +25,7 @@ String longestPalindrome(String s) {
     }
   }
 
-  if (s.length < 3) {
+  if (s.length < 0) {
     return "none";
   }
 
