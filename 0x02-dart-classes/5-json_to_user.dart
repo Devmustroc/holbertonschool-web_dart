@@ -14,7 +14,6 @@ class User {
       'height': height,
     };
   }
-
   static User fromJson(Map<dynamic, dynamic> userJson) {
     return User(
       id: userJson['id'],
@@ -23,10 +22,8 @@ class User {
       height: userJson['height'].toDouble(),
     );
   }
-
   @override
   String toString() {
     return 'User(id : $id ,name: $name, age: $age, height: $height)';
   }
-
 }
